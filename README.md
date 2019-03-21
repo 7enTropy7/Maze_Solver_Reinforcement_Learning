@@ -2,6 +2,8 @@
 
 A Q-Learning agent which finds the optimum escape route.
 
+![Maze_image](https://user-images.githubusercontent.com/36446402/54755746-a26ece00-4c0c-11e9-8d36-22fddc15f4a8.PNG)
+
 In a nutshell, there’s an agent in an environment which performs certain actions as a result of which, it’s state changes. Ultimately, the agent learns a policy which tells it which action to take under certain circumstances. Executing an action in a specific state provides the agent with a numerical score called a reward. The main target of the agent is to maximize this reward.
 
 Let’s imagine a dumb virtual agent which is trapped inside a house. The aim of this innocent agent is to just get out of the house. So in this case, each room of the house is a state and the agent’s movement from one room to another is an action.
